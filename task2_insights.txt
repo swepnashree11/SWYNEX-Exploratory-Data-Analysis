@@ -1,0 +1,62 @@
+TASK 2: EXPLORATORY DATA ANALYSIS
+Project: Cafe Sales - Dirty Data for Cleaning Training
+
+1. DATASET OVERVIEW
+The dataset contains 10,000 transactions and 8 columns.
+The data covers cafe sales transactions from January to December 2023.
+
+2. KEY STATISTICS
+Total Transactions: 10,000
+Total Revenue: 88,952
+Average Transaction Value: 8.93
+Median Transaction Value: 8.00
+Average Quantity per Transaction: 3.03
+
+3. USEFUL INSIGHTS
+
+Insight 1: Best-Selling Revenue Category
+Salad generated the highest revenue of 17,320,
+followed by Sandwich at 13,664.
+Cookie generated the lowest revenue of 3,223
+among identified item categories.
+
+Insight 2: Payment Method Preference
+Among known payment methods, Digital Wallet had
+the highest transaction count with 2,291 transactions.
+However, 3,178 transactions had an Unknown payment method,
+so the payment preference analysis has limitations.
+
+Insight 3: Sales by Location
+Among known locations, In-store generated revenue
+of 27,127, while Takeaway generated 26,487.50.
+Takeaway had 3,022 transactions and In-store had 3,017.
+Their sales performance was very similar.
+
+Insight 4: Monthly Revenue Trend
+June recorded the highest monthly revenue at 7,350.
+February recorded the lowest monthly revenue at 6,633.50.
+Monthly revenue remained relatively consistent throughout 2023.
+
+Insight 5: Sales Outliers
+The IQR method identified 268 potential outlier transactions.
+The upper outlier limit was 24, and the maximum transaction
+value was 25. These may be valid high-value purchases.
+
+Insight 6: Missing Data
+The dataset contained 38 missing Quantity values,
+38 missing Price Per Unit values, 40 missing Total Spent values,
+and 460 missing Transaction Date values.
+These missing values should be considered when interpreting results.
+
+4. VISUALIZATIONS
+1. revenue_by_item.png
+2. payment_method.png
+3. monthly_revenue_trend.png
+4. sales_outliers.png
+
+5. CONCLUSION
+The exploratory analysis shows that Salad was the highest
+revenue-generating identified item, monthly revenue was
+relatively stable, and In-store and Takeaway sales were similar.
+The analysis also identified potential outliers and missing
+data limitations that should be considered in business decisions.
